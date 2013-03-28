@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <SlideshowData > 
-<Lecture Title="Lecture Title Placeholdeer" Date="Lecture Date Placeholder"/>
+<Lecture Title="Lecture Title Placeholder" Date="Lecture Date Placeholder"/>
 <VideoClips>
 <VideoClip URL="mp4 url here" Type="video/mp4" />
 <VideoClip URL="ogv url here" Type="video/ogg" />
