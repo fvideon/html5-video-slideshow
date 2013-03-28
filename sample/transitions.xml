@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SlideshowData > 
+<Lecture Title="Lecture Title Placeholdeer" Date="Lecture Date Placeholder"/>
+<VideoClips>
+<VideoClip URL="mp4 url here" Type="video/mp4" />
+<VideoClip URL="ogv url here" Type="video/ogg" />
+</VideoClips>
+<SlideTransitions>
+<st time="0" title="Slide Zero"/>
+<st time="60000" title="Slide One"/>
+<st time="120000" title="Slide Two"/>
+</SlideTransitions>
+</SlideshowData>

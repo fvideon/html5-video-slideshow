@@ -1,0 +1,127 @@
+﻿body#player
+{
+	background-color:Gray;
+	font-family: helvetica, arial, san-serif;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+body#helpabout
+{
+	background-color:#CCC;	
+}
+
+div#main
+{
+	background-color:#555;
+	border: 3px solid #555;
+	margin-top:18px;
+	margin-left:18px;
+}
+
+/* Contains the header block with the logo and title */
+div#header 
+{
+	background-color: #CCC;
+	border-bottom: thin solid #555;
+	height:75px;
+}
+
+img#logo 
+{
+	 width:100px;
+	 border-spacing:0px; 
+	 float:left;
+}
+
+
+div#lectureTitle 
+{
+	font-size:2em;
+	padding-top:20px;
+	padding-left:30px;
+	white-space:nowrap;
+}
+
+video#mediaControl 
+{
+	float:left;
+}
+
+div#tocHeader
+{
+	position:absolute;
+	background-color:#CCC;	
+	border-bottom: thin solid #555;
+	font-weight:bold; 
+}
+
+div#tocwrapper
+{
+	position:absolute;
+	background-color:#DDD;
+}
+
+/* The scrollable Table of Contents */
+div#toc 
+{
+	width:inherit;
+	height:inherit;
+	overflow:auto; 
+	background-color:#EEE;
+	font-family:"Lucida";
+	font-size:.9em;
+}
+
+table#tocTable td
+{
+	border-bottom: 1px dotted #c0c0c0;	
+	white-space:nowrap;
+}
+
+table#tocTable
+{
+    width:100%;
+}
+
+/* Styling used to show slide thumbnails when the user hovers over table of contents */
+
+table#tocTable tr:hover 
+{
+	cursor:pointer;
+}
+
+table#tocTable tr img 
+{
+	display:none;
+}
+
+table#tocTable tr:hover img
+{
+	display:block;
+	width: 320px;
+	height: 240px;
+	position:absolute;
+	left: 325px;
+	top:50px;
+	border: #c0c0c0 1px dotted;
+}
+
+a#help 
+{
+	float:right;
+	text-decoration:none;
+	padding-right: 7px;
+	padding-left: 7px;
+	font-size: 1.2em;
+	color:#CCC;
+	background-color:#777;
+	border-left: #555 1px solid;
+	border-bottom: #555 1px solid;
+}
+
+div#aboutblurb
+{
+	text-align:center;	
+}
